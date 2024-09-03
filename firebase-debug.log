@@ -1,0 +1,10 @@
+[debug] [2024-09-03T05:10:39.837Z] ----------------------------------------------------------------------
+[debug] [2024-09-03T05:10:39.839Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/bin/firebase.js login --no-localhost
+[debug] [2024-09-03T05:10:39.839Z] CLI Version:   13.13.1
+[debug] [2024-09-03T05:10:39.840Z] Platform:      linux
+[debug] [2024-09-03T05:10:39.840Z] Node Version:  v18.19.1
+[debug] [2024-09-03T05:10:39.840Z] Time:          Tue Sep 03 2024 05:10:39 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-09-03T05:10:39.840Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
