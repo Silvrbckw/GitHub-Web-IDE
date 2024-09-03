@@ -1,10 +1,58 @@
-[debug] [2024-09-03T05:10:39.837Z] ----------------------------------------------------------------------
-[debug] [2024-09-03T05:10:39.839Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/bin/firebase.js login --no-localhost
-[debug] [2024-09-03T05:10:39.839Z] CLI Version:   13.13.1
-[debug] [2024-09-03T05:10:39.840Z] Platform:      linux
-[debug] [2024-09-03T05:10:39.840Z] Node Version:  v18.19.1
-[debug] [2024-09-03T05:10:39.840Z] Time:          Tue Sep 03 2024 05:10:39 GMT+0000 (Coordinated Universal Time)
-[debug] [2024-09-03T05:10:39.840Z] ----------------------------------------------------------------------
+[debug] [2024-09-03T11:49:31.632Z] ----------------------------------------------------------------------
+[debug] [2024-09-03T11:49:31.634Z] Command:       /nix/store/aspnwxp3q1wvg8jd1zg0295zmhr3lkb3-nodejs-18.19.1/bin/node /nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2024-09-03T11:49:31.634Z] CLI Version:   13.13.1
+[debug] [2024-09-03T11:49:31.634Z] Platform:      linux
+[debug] [2024-09-03T11:49:31.634Z] Node Version:  v18.19.1
+[debug] [2024-09-03T11:49:31.635Z] Time:          Tue Sep 03 2024 11:49:31 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-09-03T11:49:31.635Z] ----------------------------------------------------------------------
 [debug] 
-[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
- 
+[debug] [2024-09-03T11:49:31.641Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-03T11:49:31.641Z] > authorizing via signed-in user (rcsonebiz@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/user/GitHub-Web-IDE
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-03T11:51:01.659Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-03T11:51:01.659Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"rcs-one-enterprise-users","name":"rcs-distribution-busines"}
+[debug] [2024-09-03T11:51:01.970Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-09-03T11:51:01.970Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.6093734498679839694"}
+[debug] [2024-09-03T11:51:01.972Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 [none]
+[debug] [2024-09-03T11:51:02.280Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 200
+[debug] [2024-09-03T11:51:02.280Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 {"name":"operations/cp.6093734498679839694"}
+[debug] [2024-09-03T11:51:02.781Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-09-03T11:51:02.781Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 [none]
+[debug] [2024-09-03T11:51:03.264Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 200
+[debug] [2024-09-03T11:51:03.265Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 {"name":"operations/cp.6093734498679839694"}
+[debug] [2024-09-03T11:51:04.266Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-09-03T11:51:04.267Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 [none]
+[debug] [2024-09-03T11:51:04.562Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 200
+[debug] [2024-09-03T11:51:04.562Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 {"name":"operations/cp.6093734498679839694","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2024-09-03T11:51:06.564Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-09-03T11:51:06.565Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 [none]
+[debug] [2024-09-03T11:51:06.888Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 200
+[debug] [2024-09-03T11:51:06.889Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.6093734498679839694 {"name":"operations/cp.6093734498679839694","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"98311795627","projectId":"rcs-one-enterprise-users","lifecycleState":"ACTIVE","name":"rcs-distribution-busines","createTime":"2024-09-03T11:51:04.045935Z"}}
+[debug] [2024-09-03T11:51:06.890Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/rcs-one-enterprise-users:addFirebase [none]
+[debug] [2024-09-03T11:51:07.582Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/rcs-one-enterprise-users:addFirebase 403
+[debug] [2024-09-03T11:51:07.583Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/rcs-one-enterprise-users:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-09-03T11:51:07.583Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-09-03T11:51:07.650Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/nix/store/pf4ama10fsjb161xrxgsyqi21qm10wc6-firebase-tools-13.13.1/lib/node_modules/firebase-tools/lib/apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
